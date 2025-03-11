@@ -4,7 +4,7 @@ import AboutInfo from '../components/AboutInfo'
 
 const AboutPage = () => {
   return (
-    <div className=''>
+    <div className='w-full z-[888]'>
         <AbouContainer/>
         <AboutInfo/>
         
