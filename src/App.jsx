@@ -13,7 +13,7 @@ const App = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<AboutPage/>} />
       </Routes>
-      <div className='min-h-[50vh]  w-full p-[4rem]'>
+      <div className='min-h-[50vh]  w-full px-[20px] py-[2rem] md:p-[4rem]'>
        <Footer/>
       </div>
     </div>

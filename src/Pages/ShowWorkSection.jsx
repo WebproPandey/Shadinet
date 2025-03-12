@@ -16,14 +16,14 @@ const combinedData2 = [
 
 const ShowWorkSection = () => {
   return (
-    <div className='h-full w-full flex gap-5'>
-      <div className="left flex flex-col gap-4 w-[35%]">
+    <div className='h-full w-full flex  flex-col md:flex-row gap-5'>
+      <div className="left flex flex-col gap-4  md:w-[35%]">
         <h1 className='text-[40px] text-white leading-[3rem]'>Some pieces of our work</h1>
         <p className='text-[#ffff]/60 text-[16px]'>
           Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt.
           Show More
         </p>
-        <button className='py-2 w-[40%] border-[#FFA800] border-[1px] rounded-full text-[#FFA800] uppercase'>some more</button>
+        <button className='py-2 w-[40%] hover:scale-90  transition-all  ease-linear   hover:bg-[#FFA800] hover:text-[#000]  border-[#FFA800] border-[1px] rounded-full text-[#FFA800] uppercase'>some more</button>
       </div>
       <div className="mid   flex flex-col gap-4">
         {combinedData.map((data, index) => (

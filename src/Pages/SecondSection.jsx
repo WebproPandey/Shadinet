@@ -17,14 +17,14 @@ const secondSliderImages = [slider6, slider7, slider8, slider9, slider10, slider
 const SecondSection = () => {
   return (
     <div className="SecondSection h-full w-full px-4 py-10 flex flex-col justify-center gap-12">
-      <div className="top w-full flex px-[70px]">
+      <div className="top w-full flex px-[10px]  md:px-[70px]">
         <div className="left w-1/2">
-          <div className="text-[40px] font-bold text-white leading-none">
+          <div className="text-[4vh] md:text-[40px] font-bold text-white leading-none">
             Trusted by 200+ companies around the world
           </div>
         </div>
         <div className="right w-1/2">
-          <p className="text-[#ffffff]/60 text-[16px]">
+          <p className="text-[#ffffff]/60 text-[2vh] md:text-[16px]">
             Vulputate molestie molestie amet leo blandit accumsan. Sapien sed amet tellus purus sit odio eget.
             Diam morbi faucibus vitae neque id in. Nullam sed et dapibus nunc, porta enim orci urna, sit. Lectus ac.
           </p>

@@ -33,7 +33,7 @@ const feedbackData = [
 
 const FeedBackCard = () => {
   return (
-    <div className='feedback-container grid  grid-cols-4 gap-4'>
+    <div className='feedback-container grid  grid-cols-2 md:grid-cols-4 gap-4'>
       {feedbackData.map((feedback, index) => (
         <div key={index} className='feedback-card border-[1px] rounded-md h-fit p-2'>
           <div className='flex justify-start items-center'>

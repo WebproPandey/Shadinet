@@ -3,7 +3,7 @@ import FeedBackCard from '../components/FeedBackCard'
 
 const FeedBack = () => {
   return (
-    <div className='h-full  w-full'>
+    <div className='min-h-full  w-full'>
         <div className='top flex justify-between  items-end'>
             <h1 className='text-[16px] text-[#ffff]/60'>Hear what our customers say :-</h1>
             <div className="button flex   gap-3" >
@@ -15,7 +15,7 @@ const FeedBack = () => {
                 </button>
             </div>
         </div>
-        <div className="bottom mt-[5rem]">
+        <div className="min-h-[50vh] bottom-[10%] mt-[5rem]">
             <FeedBackCard/>
         </div>
 

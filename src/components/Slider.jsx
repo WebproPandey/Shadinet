@@ -50,9 +50,9 @@ const Slider = ({ images, initialReverse }) => {
 
   return (
     <div className="sliderwraper overflow-hidden">
-      <div ref={sliderRef} className="flex gap-6 flex-nowrap items-center justify-center">
+      <div ref={sliderRef} className="flex gap-8 md:gap-6 flex-nowrap items-center justify-center">
         {images.map((image, index) => (
-          <div key={index} className="box h-[8vh] w-[25vh] flex-shrink-0">
+          <div key={index} className="box h-[10vh] w-[30vh] md:h-[8vh] md:w-[25vh] flex-shrink-0">
             <img className="h-full w-full object-contain" src={image} alt={`slider-${index}`} />
           </div>
         ))}

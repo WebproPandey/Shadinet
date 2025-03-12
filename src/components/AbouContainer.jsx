@@ -52,16 +52,16 @@ const AboutContainer = () => {
     ));
 
   return (
-    <div className="Aboutmain h-screen w-full relative px-[70px]">
+    <div className="Aboutmain h-screen w-full relative px-[20px] md:px-[70px]">
       <div className="h-full w-full absolute top-0 left-0 pt-[15vh]">
         <img src={homeimg} className="h-full w-full object-cover z-[-1]" alt="" />
       </div>
       <div className="morf1 absolute bottom-0 left-0">
-        <img src={morf2} className="" alt="" />
+        <img src={morf2} className="h-1/2 w-1/2 md:h-full  md:w-full " alt="" />
       </div>
-      <div className="heading h-full w-full flex justify-start items-center relative z-[9999]">
-        <div className="headingwraper text-white w-[40%] flex flex-col items-start gap-3">
-          <div className="mainheading leading-[5rem] tracking-tighter">
+      <div className="heading h-full w-full flex justify-start items-center relative z-[9999] ">
+        <div className="headingwraper text-white w-full md:w-[40%] flex flex-col items-start  gap-2 md:gap-3 ">
+          <div className="mainheading   md:leading-[5rem] tracking-tighter">
             <div className="overflow-hidden">
 
             <div ref={(el) => (headingRefs.current[0] = el)} className="text-[24px] text-[#FA7C0B] font-semibold">
@@ -69,15 +69,15 @@ const AboutContainer = () => {
             </div>
             </div>
             
-            <div ref={(el) => (headingRefs.current[1] = el)} className="text-[64px] overflow-hidden">
+            <div ref={(el) => (headingRefs.current[1] = el)} className="text-[8vh] md:text-[64px] overflow-hidden">
               {wrapText("Shadient.co")}
             </div>
           </div>
-          <p ref={paragraphRef} className="text-[#ffffff]/60 leading-[1.5rem] overflow-hidden">
+          <p ref={paragraphRef} className="text-[#ffffff]/60  md:leading-[1.5rem] h-fit  ">
             Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros
             Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros
           </p>
-          <div className="Emailwraper flex w-[80%] gap-2">
+          <div className="Emailwraper flex w-full md:w-[80%] gap-2">
             <button ref={buttonRef} className="px-6 py-2 rounded-full bg-[#FFA800] text-black font-medium">
               Contact
             </button>
